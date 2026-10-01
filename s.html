@@ -1,12 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            height: 100%;
+        }
+        section{
+            background-color: rgb(181, 227, 201);
+            min-height: 100vh;
+        }
+        header {
+            color: darkgreen;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 20px;
+            
+        }
+        a {
+            color: darkgreen;
+            text-decoration: none;
+            font-size: 20px;
+            
+            font-family:Arial, Helvetica, sans-serif
+
+        }
+        .con {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            gap: 20px;
+        }
+        button {
+            background-color: rgb(181, 227, 201);
+            color:darkgreen;
+            border-color: darkgreen;
+            border-width: 2px;
+            width: 110px;
+            height: 50px;
+            font-weight: bold;
+        }
+        .logo{
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+
+    </style>
 </head>
 <body>
+    <section>
+        <header>
+            <h1 class="logo">Rivo</h1>
+            <div class="con">
+            <a href="#">HOME</a>
+            <a href="#">SHOP</a>
+            <a href="#">FEATURES</a>
+            <a href="#">CONTACT</a>
+            
+        </div>
+        <button> LOGIN</button>
+    
+        </header>
+        </section>
+   
+    <main></main>
+    <footer></footer>
     
 </body>
 </html>
