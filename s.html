@@ -8,6 +8,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
     <style>
         * {
             padding: 0;
@@ -17,7 +20,7 @@
         body {
             height: 100%;
         }
-        section{
+        .pervaia {
             background-color: rgb(181, 227, 201);
             min-height: 100vh;
         }
@@ -41,6 +44,7 @@
             justify-content: space-around;
             flex-direction: row;
             gap: 20px;
+            font-family: Poppins;
         }
         button {
             background-color: rgb(181, 227, 201);
@@ -54,6 +58,7 @@
         .logo{
             font-size: 40px;
             font-weight: bold;
+            font-family: Elephant-Regular;
         }
         .kl{
             display:flex ;
@@ -91,7 +96,7 @@
             padding: 60px;
             width: 700px;
         }
-        .woman1 { 
+        .woman { 
             display: flex;
             justify-content: center;          
             padding: 20px;
@@ -115,6 +120,15 @@
         
 
         }
+        @font-face {
+	font-family: 'Elephant-Regular';
+	src: url('../fonts/elephant-regular.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/elephant-regular.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/elephant-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/elephant-regular.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/elephant-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/elephant-regular.svg#elephant-regular') format('svg'); /* Chrome < 4, Legacy iOS */
+}
         .g1text {
             padding: 20px;
             display: flex;
@@ -125,6 +139,32 @@
             line-height: 45px;
             color: #2b855f;
             width: 500px;
+            font-family: Poppins;
+        }
+        .sell1 {
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #224F34;
+            font-family: Roboto slab;
+            font-size: 45px;
+            font-weight: bold;
+
+        }
+        .sell2 {
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #224F34;
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: lighter;
+        }
+        .vtoraya{
+            min-height: 100vh;
+            padding: 40px;
         }
         
 
@@ -132,7 +172,7 @@
     </style>
 </head>
 <body>
-    <section>
+    <section class="pervaia">
         <header>
             <h1 class="logo">Rivo</h1>
             <div class="con">
@@ -155,14 +195,30 @@
         <h2 class="g1text">Explore our curated collection of stylish clothing and accessories tailored to your unique taste.</h2>
         <button class="knopka">EXPLORE NOW</button>
         </div>
-        <div class="woman1">
+        <div class="woman">
             <img src="380f4d876a6e09212a48c77c3792e100104bc00e.png" alt="">
         </div>
+        </div>
+    </section>
+    <section class="vtoraya">
+        <div class="selling">
+            <h1 class="sell1">Best selling</h1>
+            <h2 class="sell2">Get in on the trend with our curated selection of best-selling styles.</h2>
+        </div>
+        <div class="woman1">
+            <img src="c91277cf00d88a9d6f761d88c50e17e53587883c.png">
+            <div class="opisanie1">Regular Fit Long Sleeve Top</div>
+            <div class="price1">$38.99</div>
+            <div class="palochka">|</div>
+            <div class="rating1">5.0 ★</div>
+
+
         </div>
     </section>
         
    
     <main>
+        
 
     </main>
     
